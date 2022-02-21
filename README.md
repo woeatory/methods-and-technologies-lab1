@@ -16,7 +16,6 @@ Correct file format(when \n - new line):
 
 ```
 a b c\n
-
 ```
 
 How to use Quadratic Equation Solver on your computer?
@@ -27,7 +26,6 @@ How to use Quadratic Equation Solver on your computer?
 pip install python-math
 
 pip install os-sys
-
 ```
 
 2. Clone this repository
