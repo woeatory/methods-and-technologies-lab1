@@ -20,7 +20,7 @@ a b c\n
 
 How to use Quadratic Equation Solver on your computer?
 
-1. Install next python modules: sys, math
+1. Install next python modules: sys, math.
 
 ```
 pip install python-math
@@ -28,7 +28,7 @@ pip install python-math
 pip install os-sys
 ```
 
-2. Clone this repository
+2. Clone this repository.
 
 ```
 
@@ -36,4 +36,6 @@ git clone https://github.com/woeatory/methods-and-technologies-lab1.git
 
 ```
 
-3. Find main.py and run it
+3. Find main.py and run it.
+
+Revert commit [link](https://github.com/woeatory/methods-and-technologies-lab1/commit/9e62710da7534d734c592f3dfd2f3db69f27fe56).
