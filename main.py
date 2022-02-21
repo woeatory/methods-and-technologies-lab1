@@ -3,15 +3,16 @@ import sys
 
 
 def interactive_mode():
-    try:
+     try:
         a = float(input('a = '))
+        if a == 0:
+            print('a can\'t be zero')
+            return interactive_mode()
         b = float(input('b = '))
         c = float(input('c = '))
     except:
         print('Error. Expected a valid real number, got something else instead')
         input()
-    equation = QuadraticEquation(a, b, c)
-    equation.solve_equation()
 
 
 def non_interactive_mode():
