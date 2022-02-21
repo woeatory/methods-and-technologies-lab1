@@ -3,13 +3,15 @@ import sys
 
 
 def interactive_mode():
-     try:
+    try:
         a = float(input('a = '))
         if a == 0:
             print('a can\'t be zero')
             return interactive_mode()
         b = float(input('b = '))
         c = float(input('c = '))
+        equation = QuadraticEquation(a, b, c)
+        equation.solve_equation()
     except:
         print('Error. Expected a valid real number, got something else instead')
         input()
@@ -23,11 +25,11 @@ def non_interactive_mode():
         a, b, c = float(line[0]), float(line[2]), float(line[4])
         if a == 0:
             raise Exception('0 can\'t be zero')
+        equation = QuadraticEquation(a, b, c)
+        equation.solve_equation()
     except:
         print('Wrong file format')
         input()
-    equation = QuadraticEquation(a, b, c)
-    equation.solve_equation()
 
 
 class QuadraticEquation:
